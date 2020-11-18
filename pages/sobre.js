@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Sobre() {
     return(
         <>
@@ -16,12 +18,25 @@ export default function Sobre() {
                 <h2 className="nome">Charles Robson</h2>
                 <p className="descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo ligula sed lacus suscipit molestie.
                 </p>
-            </div>
+            </div>    
         </div>
+
+        <div className="container">
+                <Link href="/">
+                    <input className="voltar" type="button" value="Voltar"></input>
+                </Link>
+        </div>    
+
 
         <style jsx>
             {`
+
+            .body{
+                height: auto;
+            }
+            
             .container{
+                box-sizing: border-box;
                 display: flex;
                 justify-content: center;
             }
@@ -39,12 +54,26 @@ export default function Sobre() {
             }
             
             .quem__somos-imagem{
+                margin-left: auto;
+                margin-right: auto;
+                position:relative;
                 justify-content: center;
-                margin-left: 35%;
                 width: 120px;
                 height: 120px;
                 border-radius: 50%;            
-                align-items: center;    
+            }
+
+            .voltar{
+                margin: 1rem;
+                background: #2ea44f;
+                border: none;
+                cursor: pointer;
+                font-size: 18px;
+                height: 2rem;
+                justify-content: center;
+                text-decoration: none;
+                text-transform: uppercase;
+                width: 5rem;
             }
 
             
