@@ -9,7 +9,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="title">Bem vindo ao Portifolio!</h1>
+        <h1 className="title">Bem vindo ao Portfólio!</h1>
 
         <div className="grid">
           <a href="sobre" className="card">
