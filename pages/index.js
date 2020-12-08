@@ -44,7 +44,6 @@ export default function Home() {
 
       <style jsx>{`
         .container {
-          background-color: #add8e6;
           min-height: 100vh;
           padding: 0 0.5rem;
           display: flex;
