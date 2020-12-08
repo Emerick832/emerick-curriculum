@@ -80,11 +80,12 @@ export default function Sobre() {
             border: none;
             cursor: pointer;
             font-size: 18px;
-            height: 2rem;
             justify-content: center;
             text-decoration: none;
+            text-align: center;
             text-transform: uppercase;
-            width: 5rem;
+            width: 7rem;
+            height: 3rem;
           }
 
         `}
