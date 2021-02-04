@@ -13,21 +13,21 @@ export default function Home() {
 
         <div className="grid">
           <a href="sobre" className="card">
-            <h3>Sobre Nós &rarr;</h3>
+            <h3>Sobre &rarr;</h3>
             <p>
-              Clique aqui para conhecer melhor os desenvolvedores da aplicação.
+             Mais informações sobre as minhas qualificações.
             </p>
           </a>
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          //<a
+          //  href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          //  className="card"
+         // >
+            //<h3>Deploy &rarr;</h3>
+            //<p>
+             // Instantly deploy your Next.js site to a public URL with Vercel.
+            //</p>
+       //   </a>
         </div>
       </main>
 
