@@ -12,24 +12,10 @@ export default function Sobre() {
           ></img>
           <h2 className="nome">Guilherme Emerick</h2>
           <p className="descricao">
-            Graduado em Analise e Desenvolvimento de Sistemas com experiencia de
-            1 ano pela fabrica de software e 1 ano de estagio no Conselho
-            Nacional de Justica.
-          </p>
-        </div>
-      </div>
-
-      <div className="container">
-        <div className="quem__somos">
-          <img
-            className="quem__somos-imagem"
-            src="/example-people.jpg"
-            alt="Charles Foto"
-          ></img>
-          <h2 className="nome">Charles Robson</h2>
-          <p className="descricao">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo
-            ligula sed lacus suscipit molestie.
+            Graduado em Analise e Desenvolvimento de Sistemas, com experiencia de
+            1 ano pela fabrica de software da faculdade e 1 ano de estágio no Conselho
+            Nacional de Justica. Atualmente estou estudando Design de Front-end e UX.
+            Venho utilizando HTML, CSS, JavaScript e Angular para desenvolver este site pessoal.
           </p>
         </div>
       </div>
